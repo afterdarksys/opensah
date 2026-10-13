@@ -13,7 +13,7 @@ Commands: `docs/usage.md`. Cross-repo contract: `~/development/systemapi.io/docs
 
 - Keep sahcore `not_built` / `unassigned` until a role is assigned. Shipping a sahcore program invents a product.
 - Do not shell out to adssh, systemapi, or computeapi from this module. Execution belongs to those tools. `ready` is a `LookPath` check.
-- Do not rename `adssh`, module `github.com/afterdarksys/adssh`, or repo `afterdarksys/adssh`. The brand word is sah (Service Automation Hum). The binary name stays.
+- Do not rename `adssh`, module `github.com/afterdarksys/adssh`, or repo `afterdarksys/adssh`. The brand word is sah (Service Automation Hub). The hub encompasses the platform and the suite of utilities. The binary name stays.
 - When a join becomes real, edit the Wired join list in the suite contract in the same change. A sentence here does not make it real.
 
 ## Next

@@ -2,7 +2,7 @@
 
 Initial SAH tooling. `opensah` prints the role of each suite name and checks that the built tools are on `PATH`.
 
-**sah** means Service Automation Hum. This program does not provision machines and it does not open a shell.
+**sah** means Service Automation Hub. The hub encompasses the platform and the suite of utilities. This program does not provision machines and it does not open a shell.
 
 ```bash
 go install ./cmd/opensah
