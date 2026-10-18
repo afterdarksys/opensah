@@ -25,6 +25,9 @@ func TestVersionAndTools(t *testing.T) {
 	if code != 0 || !strings.Contains(buf.String(), "sahcore\tnot_built\tunassigned") {
 		t.Fatalf("code %d\n%s", code, buf.String())
 	}
+	if !strings.Contains(buf.String(), "sahsync\toptional\tfile copy and sync through the systemapi agent") {
+		t.Fatalf("sahsync line missing:\n%s", buf.String())
+	}
 	if run([]string{"nope"}) != 2 {
 		t.Fatal("usage")
 	}

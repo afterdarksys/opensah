@@ -10,7 +10,7 @@ opensah tools
 opensah ready
 ```
 
-`ready` exits 1 when `sahlink`, `sahconnect`, or `sahapi` is missing. A missing `adssh` is printed and does not fail the command. `sahcore` has no binary.
+`ready` exits 1 when `sahlink`, `sahconnect`, or `sahapi` is missing. A missing `adssh` is printed and does not fail the command. `sahsync` is `optional` (wired, not required) and `sahxfer` is `early` (not wired yet); a missing binary of either is reported and does not fail the check. `sahcore` and `sah2grpc` have no binary yet.
 
 Usage: `docs/usage.md`. Join contract: `~/development/systemapi.io/docs/sah-suite.md`.
 

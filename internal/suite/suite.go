@@ -22,6 +22,9 @@ func Catalog() []Tool {
 		{Name: "sahlink", Role: "stdio and opt-in socket capture for a program this tool starts", State: "built", Bin: "sahlink"},
 		{Name: "sahconnect", Role: "ssh and systemapi client", State: "built", Bin: "sahconnect"},
 		{Name: "sahapi", Role: "local api service", State: "built", Bin: "sahapi"},
+		{Name: "sahsync", Role: "file copy and sync through the systemapi agent", State: "optional", Bin: "sahsync"},
+		{Name: "sahxfer", Role: "bulk one-file transfer on its own udp data plane, authorized by a grant", State: "early", Bin: "sahxfer"},
+		{Name: "sah2grpc", Role: "grpc debug bridge for sah decisions", State: "early"}, // no binary yet
 		{Name: "sahcore", Role: "unassigned", State: "not_built"},
 		{Name: "adssh", Role: "execution shell", State: "external", Bin: "adssh"},
 		{Name: "systemapi", Role: "control plane", State: "external"},
